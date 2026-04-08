@@ -22,7 +22,8 @@ It does not easily perform menu operations or work well outside of Rocket League
 You will need:
 | Materials | Count | Total cost | Link |
 | --------- | ----- | ---------- | ---- |
-PCB | 1 | idk | idk
+PCB | 1 | £3.43 | https://cart.jlcpcb.com/quote?quoteTab=standardPcb
+all the items etc go here
 3D print | 1 | idk | idk
 Mini Push Button Switch | 5 | £1.02 | https://www.dfrobot.com/product-612.html
 40mm Wheels | 4 | £2.49 | https://www.alibaba.com/product-detail/DIY-Material-Wheels-40mm-100mm-Shaft_1601672763046.html
