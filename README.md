@@ -1,7 +1,7 @@
 # RLController
 This is RLController, a controller designed for Rocket League using intuitive mechanical real-life gestures using a real model of an Octane car. It is designed for both beginners to easily perform tricks and more advanced players that need a challenge.
 # Why?
-I have always thought Rocket League seemed pretty intuitive. Looking at gameplay it seemed like you could just go up to the ball and hit it at the right angle every time. But being a beginner, there is a huge mechanical skill ceiling that can only be reached with experience and hundreds of hours of mastery. And controls are not intuitive at all; a 2D controller or keyboard isn't suited for a 3D game. So I decided to make a handheld controller that feels like a mouse but plays like you are the driver.
+I have always thought Rocket League seemed pretty intuitive. Looking at gameplay it seemed like you could just go up to the ball and hit it at the right angle every time. But being a beginner, there is a huge mechanical skill ceiling that can only be reached with experience and hundreds of hours of mastery. And controls are not intuitive at all; a 2D controller or keyboard isn't suited for a 3D game. So I decided to make a handheld controller that feels like a mouse but plays like you are the driver.  
 It uses an accelerometer, a gyroscope and buttons near the wheels to detect movement and move the car accordingly.
 # Features
 It does all the basic controls, such as:
@@ -48,6 +48,9 @@ PCB design:
 
 3D model:
 <img width="736" height="419" alt="image" src="https://github.com/user-attachments/assets/793ca1fd-2e0a-490f-93b7-a530ff5ad48b" />
+<img width="1093" height="466" alt="image" src="https://github.com/user-attachments/assets/acb19c6f-fd95-4792-bfe5-751da6ee6f7f" />
+<img width="709" height="538" alt="image" src="https://github.com/user-attachments/assets/a8f4fe57-2541-4767-96e2-2d297c505895" />
+
 Small button switches should be attached at the yellow regions:
 <img width="1021" height="536" alt="image" src="https://github.com/user-attachments/assets/7dfcf9e2-dcc7-4c9c-8209-de583150369a" />
 Slide switch should be attached inside the yello perimeter:
