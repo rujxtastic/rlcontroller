@@ -23,10 +23,10 @@ It also can perform aerial movements:
 It does not easily perform menu operations or work well outside of Rocket League, but since the inputs are mapped to mostly default Rocket League controls some inputs are able to be performed: for example, jumping also skips replay as both are bound to the A button (Xbox).   
 
 # Dimensions
-Bumper to spoiler (length): 18.4cm
-Base to bumper (height): 6.937cm
-Wing to wing (width): 9.518cm
-Clickable hood area: 2.09cm x 2.842cm
+Bumper to spoiler (length): 18.4cm  
+Base to bumper (height): 6.937cm  
+Wing to wing (width): 9.518cm  
+Clickable hood area: 2.09cm x 2.842cm  
 
 # BOM
 You will need:
