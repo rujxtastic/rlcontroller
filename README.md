@@ -69,3 +69,5 @@ Small button switches should be attached at the yellow regions:
 <img width="1021" height="536" alt="image" src="https://github.com/user-attachments/assets/7dfcf9e2-dcc7-4c9c-8209-de583150369a" />
 Slide switch should be attached inside the yellow perimeter:  
 <img width="1028" height="535" alt="image" src="https://github.com/user-attachments/assets/8c9264cb-2a5c-4494-b759-501d40565892" />
+It should look like this:  
+<img width="1031" height="532" alt="image" src="https://github.com/user-attachments/assets/588e8002-a6d5-44c7-9a85-313194bfda41" />
