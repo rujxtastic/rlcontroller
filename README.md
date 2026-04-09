@@ -36,6 +36,7 @@ Copper wire (<=28G) | 30cm | £1.77 | https://www.ebay.co.uk/itm/301767024783 (a
 LiPo Battery (~3.7V) | 1 | £4.30 | https://kitronik.co.uk/products/4652-polymer-lithium-ion-battery-1ah
 Screws (2mm diameter, 2.4-7.5mm length) | 2 | £2.01 | https://www.switchelectronics.co.uk/products/m2-x-4mm-nylon-pan-head-screws-pack-of-100
 JCPLB Shipping | - | £27.86
+
 Gross total: £45.18
 Net total: £0.00 (self-funded)
 #Modelling
