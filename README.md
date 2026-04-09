@@ -1,5 +1,5 @@
-# RLController
-This is RLController, a controller designed for Rocket League using intuitive mechanical real-life gestures using a model of an Octane car. It is designed for both beginners to easily perform tricks and more advanced players that need a challenge.
+<img width="913" height="592" alt="image" src="https://github.com/user-attachments/assets/56dd93d8-cb12-4be8-b8e8-519599992a0e" /># RLController
+This is RLController, a controller designed for Rocket League using intuitive mechanical real-life gestures using a real model of an Octane car. It is designed for both beginners to easily perform tricks and more advanced players that need a challenge.
 # Why?
 I have always thought Rocket League seemed pretty intuitive. Looking at gameplay it seemed like you could just go up to the ball and hit it at the right angle every time. But being a beginner, there is a huge mechanical skill ceiling that can only be reached with experience and hundreds of hours of mastery. And controls are not intuitive at all; a 2D controller or keyboard isn't suited for a 3D game. So I decided to make a handheld controller that feels like a mouse but plays like you are the driver.
 It uses an accelerometer, a gyroscope and buttons near the wheels to detect movement and move the car accordingly.
@@ -23,15 +23,21 @@ You will need:
 | Materials | Count | Total cost | Link |
 | --------- | ----- | ---------- | ---- |
 PCB | 1 | £3.10 (free for first time) | https://cart.jlcpcb.com/quote?quoteTab=standardPcb
-PCB Shipping | 1 | £1.50
-3D print | 1 | idk | idk
-On-On Mini Slide Switch | 1 | £0.92 | https://www.switchelectronics.co.uk/products/on-on-mini-slide-switch-dpdt-5a?variant=45333622980917
+Wemos C3 Mini | 1 | £8.90 | https://kunkune.co.uk/shop/esp32-esp8266/c3-mini-v2-1-0-lolin-wifi-bluetooth-le-ble-iot-board-esp32-c3-4mb-flash/
+Wemos Shipping | - | £1.90
+MPU 6050 Chip | 1 | £2.53 | https://www.ebay.co.uk/itm/257062945708
+MPU Shipping | - | £1.20
+4.7k Resistors (very easy to come by) | 2 | £1.16 | https://www.switchelectronics.co.uk/products/4-7k-yageo-1206-smd-chip-resistor-1-0-25w-pack-of-100
+3D print | 1 | £12.46 | https://jlc3dp.com/3d-printing-quote
+On-On Mini Slide Switch | 1 | £0.92 | https://www.switchelectronics.co.uk/products/on-on-mini-slide-switch-dpdt-5a
 Mini Push Button Switch | 5 | £1.80 | https://www.dfrobot.com/product-612.html
 40mm Wheels | 4 | £2.49 | https://www.alibaba.com/product-detail/DIY-Material-Wheels-40mm-100mm-Shaft_1601672763046.html
 Copper wire (<=28G) | 30cm | £1.77 | https://www.ebay.co.uk/itm/301767024783 (although you can get them anywhere)
 LiPo Battery (~3.7V) | 1 | £4.30 | https://kitronik.co.uk/products/4652-polymer-lithium-ion-battery-1ah
-Screws | 2 | idk | idk
-
+Screws (2mm diameter, 2.4-7.5mm length) | 2 | £2.01 | https://www.switchelectronics.co.uk/products/m2-x-4mm-nylon-pan-head-screws-pack-of-100
+JCPLB Shipping | - | £27.86
+Gross total: £45.18
+Net total: £0.00 (self-funded)
 #Modelling
 Schematic:
 <img width="653" height="388" alt="image" src="https://github.com/user-attachments/assets/ab21c361-6252-4960-b531-49b88630c86d" />
