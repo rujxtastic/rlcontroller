@@ -51,7 +51,7 @@ JCPLB Shipping | - |£13.11|-
 Gross total: £57.31  
 Net total: £0.00 (self-funded)  
 
-By the way, a lot of these costs can be saved by ordering in bulk or funding the parts more locally (I chose this specific battery because I already had it in my house).  
+A lot of these costs can be saved by ordering in bulk or funding the parts more locally.  
 
 # Modelling  
 Schematic:
