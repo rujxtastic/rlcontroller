@@ -22,7 +22,7 @@ It does not easily perform menu operations or work well outside of Rocket League
 You will need:
 | Materials | Count | Total cost | Link |
 | --------- | ----- | ---------- | ---- |
-PCB | 1 | £3.10 (free for first time) | https://cart.jlcpcb.com/quote?quoteTab=standardPcb
+PCB | 1 | £1.49 (free for first time) | https://cart.jlcpcb.com/quote?quoteTab=standardPcb
 Wemos C3 Mini | 1 | £8.90 | https://kunkune.co.uk/shop/esp32-esp8266/c3-mini-v2-1-0-lolin-wifi-bluetooth-le-ble-iot-board-esp32-c3-4mb-flash/
 Wemos Shipping | - | £1.90
 MPU 6050 Chip | 1 | £2.53 | https://www.ebay.co.uk/itm/257062945708
@@ -37,8 +37,8 @@ LiPo Battery (~3.7V) | 1 | £4.30 | https://kitronik.co.uk/products/4652-polymer
 Screws (2mm diameter, 2.4-7.5mm length) | 2 | £2.01 | https://www.switchelectronics.co.uk/products/m2-x-4mm-nylon-pan-head-screws-pack-of-100
 JCPLB Shipping | - | £27.86
 
-Gross total: £45.18
-Net total: £0.00 (self-funded)
+Gross total: £43.57  
+Net total: £0.00 (self-funded)  
 #Modelling
 Schematic:
 <img width="653" height="388" alt="image" src="https://github.com/user-attachments/assets/ab21c361-6252-4960-b531-49b88630c86d" />
