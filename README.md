@@ -54,18 +54,18 @@ Net total: £0.00 (self-funded)
 A lot of these costs can be saved by ordering in bulk or funding the parts more locally.  
 
 # Modelling  
-Schematic:
+Schematic:  
 <img width="653" height="388" alt="image" src="https://github.com/user-attachments/assets/ab21c361-6252-4960-b531-49b88630c86d" />
 
-PCB design:
+PCB design:  
 <img width="284" height="562" alt="image" src="https://github.com/user-attachments/assets/7c662381-3314-40a1-9fcc-b6ec5af7834e" />
 
-3D model:
+3D model:  
 <img width="736" height="419" alt="image" src="https://github.com/user-attachments/assets/793ca1fd-2e0a-490f-93b7-a530ff5ad48b" />
 <img width="1093" height="466" alt="image" src="https://github.com/user-attachments/assets/acb19c6f-fd95-4792-bfe5-751da6ee6f7f" />
 <img width="709" height="538" alt="image" src="https://github.com/user-attachments/assets/a8f4fe57-2541-4767-96e2-2d297c505895" />
 
-Small button switches should be attached at the yellow regions:
+Small button switches should be attached at the yellow regions:  
 <img width="1021" height="536" alt="image" src="https://github.com/user-attachments/assets/7dfcf9e2-dcc7-4c9c-8209-de583150369a" />
-Slide switch should be attached inside the yellow perimeter:
+Slide switch should be attached inside the yellow perimeter:  
 <img width="1028" height="535" alt="image" src="https://github.com/user-attachments/assets/8c9264cb-2a5c-4494-b759-501d40565892" />
