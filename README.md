@@ -38,8 +38,9 @@ LiPo Battery (~3.7V) |1|£4.30| https://kitronik.co.uk/products/4652-polymer-lit
 "Screws (2mm diameter, 2.4-7.5mm length) "|2|£2.01| https://www.switchelectronics.co.uk/products/m2-x-4mm-nylon-pan-head-screws-pack-of-100
 JCPLB Shipping | - |£13.11|-
 
-Gross total: £43.57  
+Gross total: £57.31  
 Net total: £0.00 (self-funded)  
+By the way, a lot of these costs can be saved by ordering in bulk or funding the parts more locally (I chose this specific battery because I already had it in my house).
 #Modelling
 Schematic:
 <img width="653" height="388" alt="image" src="https://github.com/user-attachments/assets/ab21c361-6252-4960-b531-49b88630c86d" />
