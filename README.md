@@ -20,22 +20,23 @@ It does not easily perform menu operations or work well outside of Rocket League
 
 # BOM
 You will need:
-| Materials | Count | Total cost | Link |
-| --------- | ----- | ---------- | ---- |
-PCB | 1 | £1.49 (free for first time) | https://cart.jlcpcb.com/quote?quoteTab=standardPcb
-Wemos C3 Mini | 1 | £8.90 | https://kunkune.co.uk/shop/esp32-esp8266/c3-mini-v2-1-0-lolin-wifi-bluetooth-le-ble-iot-board-esp32-c3-4mb-flash/
-Wemos Shipping | - | £1.90
-MPU 6050 Chip | 1 | £2.53 | https://www.ebay.co.uk/itm/257062945708
-MPU Shipping | - | £1.20
-4.7k Resistors (very easy to come by) | 2 | £1.16 | https://www.switchelectronics.co.uk/products/4-7k-yageo-1206-smd-chip-resistor-1-0-25w-pack-of-100
-3D print | 1 | £12.46 | https://jlc3dp.com/3d-printing-quote
-On-On Mini Slide Switch | 1 | £0.92 | https://www.switchelectronics.co.uk/products/on-on-mini-slide-switch-dpdt-5a
-Mini Push Button Switch | 5 | £1.80 | https://www.dfrobot.com/product-612.html
-40mm Wheels | 4 | £2.49 | https://www.alibaba.com/product-detail/DIY-Material-Wheels-40mm-100mm-Shaft_1601672763046.html
-Copper wire (<=28G) | 30cm | £1.77 | https://www.ebay.co.uk/itm/301767024783 (although you can get them anywhere)
-LiPo Battery (~3.7V) | 1 | £4.30 | https://kitronik.co.uk/products/4652-polymer-lithium-ion-battery-1ah
-Screws (2mm diameter, 2.4-7.5mm length) | 2 | £2.01 | https://www.switchelectronics.co.uk/products/m2-x-4mm-nylon-pan-head-screws-pack-of-100
-JCPLB Shipping | - | £27.86
+Materials | Count | Total cost | Link
+---|---|---|--- 
+PCB |1| £1.49 (free for first time) | https://cart.jlcpcb.com/quote?quoteTab=standardPcb
+Wemos C3 Mini |1|£8.90| https://kunkune.co.uk/shop/esp32-esp8266/c3-mini-v2-1-0-lolin-wifi-bluetooth-le-ble-iot-board-esp32-c3-4mb-flash/
+Wemos Shipping | - |£1.90|-
+MPU 6050 Chip |1|£2.53| https://www.ebay.co.uk/itm/257062945708
+MPU Shipping | - |£1.20|-
+4.7k Resistors (very easy to come by) |2|£1.16| https://www.switchelectronics.co.uk/products/4-7k-yageo-1206-smd-chip-resistor-1-0-25w-pack-of-100
+3D print |1|£14.40| https://jlc3dp.com/3d-printing-quote
+On-On Mini Slide Switch |1|£0.92| https://www.switchelectronics.co.uk/products/on-on-mini-slide-switch-dpdt-5a
+Mini Push Button Switch |5|£1.00| https://www.dfrobot.com/product-612.html
+Button Shipping| -| £3.35| -
+40mm Wheels |4|£0.76| https://www.aliexpress.us/item/2255801038501851.html
+Copper wire (<=28G)| 30cm |£1.77| https://www.ebay.co.uk/itm/301767024783 (although you can get them anywhere)
+LiPo Battery (~3.7V) |1|£4.30| https://kitronik.co.uk/products/4652-polymer-lithium-ion-battery-1ah
+"Screws (2mm diameter, 2.4-7.5mm length) "|2|£2.01| https://www.switchelectronics.co.uk/products/m2-x-4mm-nylon-pan-head-screws-pack-of-100
+JCPLB Shipping | - |£13.11|-
 
 Gross total: £43.57  
 Net total: £0.00 (self-funded)  
