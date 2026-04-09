@@ -1,10 +1,11 @@
 # RLController
 This is RLController, a controller designed for Rocket League using intuitive mechanical real-life gestures using a real model of an Octane car. It is designed for both beginners to easily perform tricks and more advanced players that need a challenge.  
-The Onshape file is available [here](https://cad.onshape.com/documents/7551f43b8e30edc5f5d3d271/w/9f8330f5f6dba310bbc324b3/e/3f2c64dd342ad73578803719?renderMode=0&uiState=69d802e332debe90e1bc55d0).
-
+The Onshape file is available [here](https://cad.onshape.com/documents/7551f43b8e30edc5f5d3d271/w/9f8330f5f6dba310bbc324b3/e/3f2c64dd342ad73578803719?renderMode=0&uiState=69d802e332debe90e1bc55d0).  
+<img width="3983" height="6049" alt="RLControllerZine" src="https://github.com/user-attachments/assets/cf9f7eec-7171-4446-a1f3-49f5ad4fa3c7" />
 # Why?
 I have always thought Rocket League seemed pretty intuitive. Looking at gameplay it seemed like you could just go up to the ball and hit it at the right angle every time. But being a beginner, there is a huge mechanical skill ceiling that can only be reached with experience and hundreds of hours of mastery. And controls are not intuitive at all; a 2D controller or keyboard isn't suited for a 3D game. So I decided to make a handheld controller that feels like a mouse but plays like you are the driver.  
 It uses an accelerometer, a gyroscope and buttons near the wheels to detect movement and move the car accordingly.
+
 # Features
 It does all the basic controls, such as:
 - Forward: push on the front two wheels
@@ -66,5 +67,5 @@ PCB design:
 
 Small button switches should be attached at the yellow regions:
 <img width="1021" height="536" alt="image" src="https://github.com/user-attachments/assets/7dfcf9e2-dcc7-4c9c-8209-de583150369a" />
-Slide switch should be attached inside the yello perimeter:
+Slide switch should be attached inside the yellow perimeter:
 <img width="1028" height="535" alt="image" src="https://github.com/user-attachments/assets/8c9264cb-2a5c-4494-b759-501d40565892" />
