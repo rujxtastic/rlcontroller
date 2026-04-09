@@ -16,6 +16,7 @@ It also can perform aerial movements:
 - Jump/Double jump: quickly jerk car upwards
 - Air roll: angle car in direction of travel and jump
 - Airborne angles: angle car in direction of travel
+  
 It does not easily perform menu operations or work well outside of Rocket League, but since the inputs are mapped to mostly default Rocket League controls some inputs are able to be performed: for example, jumping also skips replay as both are bound to the A button (Xbox).   
 
 # BOM
