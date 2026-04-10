@@ -7,7 +7,7 @@ I have always thought Rocket League seemed pretty intuitive. Looking at gameplay
 It uses an accelerometer, a gyroscope and buttons near the wheels to detect movement and move the car accordingly.
 
 # Credits
-Credit to GenericGeek (@GenericGeek_91980) on Printables for the shell model. I have edited the insides to accomodate PCB components and made it much more 3D-printer and edit-friendly. The model is available [here](https://www.printables.com/model/234512-octane-rocket-league-multipart).
+Credit to GenericGeek (@GenericGeek_91980) on Printables for the shell model taken from the Rocket League game files. I have edited the insides to accomodate PCB components and made it much more 3D-printer and edit-friendly. The model is available [here](https://www.printables.com/model/234512-octane-rocket-league-multipart).
 
 # Features
 It does all the basic controls, such as:
@@ -69,35 +69,40 @@ PCB design:
 <img width="284" height="562" alt="image" src="https://github.com/user-attachments/assets/7c662381-3314-40a1-9fcc-b6ec5af7834e" />
 
 3D model:  
-<img width="736" height="419" alt="image" src="https://github.com/user-attachments/assets/793ca1fd-2e0a-490f-93b7-a530ff5ad48b" />
-<img width="1093" height="466" alt="image" src="https://github.com/user-attachments/assets/acb19c6f-fd95-4792-bfe5-751da6ee6f7f" />
-<img width="709" height="538" alt="image" src="https://github.com/user-attachments/assets/a8f4fe57-2541-4767-96e2-2d297c505895" />
+<img width="805" height="432" alt="image" src="https://github.com/user-attachments/assets/d7680dfc-7dd1-4c75-bbb4-2daaaa493d50" />
+<img width="775" height="525" alt="image" src="https://github.com/user-attachments/assets/e54f071b-6fd4-4034-89e2-527a189f9790" />
+<img width="1019" height="409" alt="image" src="https://github.com/user-attachments/assets/4ac8d6cf-1fff-47cc-884c-0919a9247e6e" />
 
-Small button switches should be attached at the yellow regions:  
-<img width="1021" height="536" alt="image" src="https://github.com/user-attachments/assets/7dfcf9e2-dcc7-4c9c-8209-de583150369a" />
-Slide switch should be attached inside the yellow perimeter:  
-<img width="1028" height="535" alt="image" src="https://github.com/user-attachments/assets/8c9264cb-2a5c-4494-b759-501d40565892" />
-It should look like this:  
+
+Underside with the electronic pieces:
 <img width="1031" height="532" alt="image" src="https://github.com/user-attachments/assets/588e8002-a6d5-44c7-9a85-313194bfda41" />
 
+3D render of the car, showing the boost button.
+<img width="734" height="402" alt="Screenshot 2026-04-08 204945" src="https://github.com/user-attachments/assets/fb2a421d-c3be-4528-baeb-b5249997b76b" />
+<img width="448" height="222" alt="Screenshot 2026-04-08 204235" src="https://github.com/user-attachments/assets/9f3b18e3-01ee-4d3a-a24e-6f6b0bd1bf3c" />
+
+
 # Building
-Somewhere in here I forgot the switch and the USB-C   
-1. Solder the PCB together, using the outlines as guidance. Reuse the pins meant for the WEMOS in the switch pin nodes and adjust until the pins won't touch the base of the bottom.   
-2. Solder wires to the non-ground pins. There should be five. Wire them like so:   
+1. Solder the PCB together, using the outlines as guidance. Reuse the pins meant for the WEMOS in the switch pin nodes and adjust until the pins won't touch the base of the bottom.
+2. Place the on-on slide switch into the hole at the bottom. Use glue to attach it in place. Solder the middle pin to the power supply in SW6 and solder the ground to one of the other pins in the direction you want 'on' to be. For example, if you want to slide up for on, solder the top pin.
+3. Solder wires to the non-ground pins. There should be five not soldered. Wire them like so:   
 - SW1: Back left
 - SW2: Front left
 - SW3: Hood
 - SW4: Back right
 - SW5: Front right
 Leave enough wire to solder switches, but don't worry if they are too long as there is enough space inside to tuck in extra wires. Push the wires of SW1, SW2, SW4, SW5 through the holes on the left and right of the back of the car.
-3. Solder the wires to one of the feet of each switch. We will only use one side.
-4. Solder ground wires to the foot to the right of the previous solder job. It is important to make sure the feet are facing the same way, not opposite ways.
-5. Place the battery inside the square cavity. Connect the pin to the socket on the underside of the PCB.
-6. Push the PCB into the carved holes and put the screws inside and tighten them.
-7. Glue the hood switch to the hole carved, tucking the metal pins underneath or onto the wall.
-8. Slide the top of the car onto the bottom, going backwards until you feel the click. Confirm it won't slide out easily.
-9. Glue the remaining 4 switches under their respective wheels.
-10. Place the wheels, putting thier axles through the holes. 
+4. Solder the wires to one of the feet of each switch. We will only use one side.
+5. Solder ground wires to the foot to the right of the previous solder job. It is important to make sure the feet are facing the same way, not opposite ways.
+6. Place the battery inside the square cavity. Connect the pin to the socket on the underside of the PCB.
+7. Connect the USB-C extension to the PCB and push one end into the USB-C hole.
+7. Push the PCB into the carved holes and put the screws inside and tighten them.
+8. Fold up the USB-C cable until the desired length is reached. I would glue the USB-C here but leaving a part slightly trailing is okay. The battery alone should be plenty to make it last a long time.
+9. Glue the hood switch to the hole carved, tucking the metal pins underneath or onto the wall.
+10. Slide the top of the car onto the bottom, making sure that the wires are not getting in the way, going backwards until you feel the click. Confirm it won't slide out easily.
+11. Glue the remaining 4 switches under their respective wheels.
+12. Place the wheels, putting thier axles through the holes.
+Your build should be assembled. Disassembly requires being very careful due to the glue holding the switches in place, but this is dependent on how much wire extension you gave.
 
 # Post-building setup
 1. Flash the chip with the firmware, the Arduino application works well for this.
