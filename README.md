@@ -55,6 +55,7 @@ JCPLB Shipping | - |£13.11|-
 Switch Electronics Shipping | - | £2.99
 USB-C Extensions (not necessary but very helpful) | 1 | £2.79 | https://www.aliexpress.com/item/1005005240135902.html
 USB-C Shipping | - | £2.87 | -
+  
 Gross total: £67.45 
 Net total: £0.00 (self-funded)  
 
