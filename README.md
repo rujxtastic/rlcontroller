@@ -80,6 +80,25 @@ Slide switch should be attached inside the yellow perimeter:
 It should look like this:  
 <img width="1031" height="532" alt="image" src="https://github.com/user-attachments/assets/588e8002-a6d5-44c7-9a85-313194bfda41" />
 
+# Building
+Somewhere in here I forgot the switch and the USB-C   
+1. Solder the PCB together, using the outlines as guidance. Reuse the pins meant for the WEMOS in the switch pin nodes and adjust until the pins won't touch the base of the bottom.   
+2. Solder wires to the non-ground pins. There should be five. Wire them like so:   
+- SW1: Back left
+- SW2: Front left
+- SW3: Hood
+- SW4: Back right
+- SW5: Front right
+Leave enough wire to solder switches, but don't worry if they are too long as there is enough space inside to tuck in extra wires. Push the wires of SW1, SW2, SW4, SW5 through the holes on the left and right of the back of the car.
+3. Solder the wires to one of the feet of each switch. We will only use one side.
+4. Solder ground wires to the foot to the right of the previous solder job. It is important to make sure the feet are facing the same way, not opposite ways.
+5. Place the battery inside the square cavity. Connect the pin to the socket on the underside of the PCB.
+6. Push the PCB into the carved holes and put the screws inside and tighten them.
+7. Glue the hood switch to the hole carved, tucking the metal pins underneath or onto the wall.
+8. Slide the top of the car onto the bottom, going backwards until you feel the click. Confirm it won't slide out easily.
+9. Glue the remaining 4 switches under their respective wheels.
+10. Place the wheels, putting thier axles through the holes. 
+
 # Post-building setup
 1. Flash the chip with the firmware, the Arduino application works well for this.
 2. Make sure you have angled the controller in the direction you want it to percieve as forwards.
