@@ -1,5 +1,5 @@
 Materials , Count , Total cost , Link 
-PCB ,1, £1.49 (free for first time) , =HYPERLINK("https://cart.jlcpcb.com/quote?quoteTab=standardPcb")
+PCB ,1, £1.49 (free for first time) , =HYPERLINK(https://cart.jlcpcb.com/quote?quoteTab=standardPcb)
 Wemos C3 Mini ,1,£8.90, https://kunkune.co.uk/shop/esp32-esp8266/c3-mini-v2-1-0-lolin-wifi-bluetooth-le-ble-iot-board-esp32-c3-4mb-flash/
 Wemos Shipping , - ,£1.90,-
 MPU 6050 Chip ,1,£2.53, https://www.ebay.co.uk/itm/257062945708
