@@ -6,6 +6,9 @@ The Onshape file is available [here](https://cad.onshape.com/documents/7551f43b8
 I have always thought Rocket League seemed pretty intuitive. Looking at gameplay it seemed like you could just go up to the ball and hit it at the right angle every time. But being a beginner, there is a huge mechanical skill ceiling that can only be reached with experience and hundreds of hours of mastery. And controls are not intuitive at all; a 2D controller or keyboard isn't suited for a 3D game. So I decided to make a handheld controller that feels like a mouse but plays like you are the driver.  
 It uses an accelerometer, a gyroscope and buttons near the wheels to detect movement and move the car accordingly.
 
+# Credits
+Credit to GenericGeek (@GenericGeek_91980) on Printables for the shell model. I have edited the insides to accomodate PCB components and made it much more 3D-printer and edit-friendly. The model is available [here](https://www.printables.com/model/234512-octane-rocket-league-multipart).
+
 # Features
 It does all the basic controls, such as:
 - Forward: push on the front two wheels
