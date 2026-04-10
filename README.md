@@ -73,3 +73,10 @@ Slide switch should be attached inside the yellow perimeter:
 <img width="1028" height="535" alt="image" src="https://github.com/user-attachments/assets/8c9264cb-2a5c-4494-b759-501d40565892" />
 It should look like this:  
 <img width="1031" height="532" alt="image" src="https://github.com/user-attachments/assets/588e8002-a6d5-44c7-9a85-313194bfda41" />
+
+# Post-building setup
+1. Flash the chip with the firmware, the Arduino application works well for this.
+2. Make sure you have angled the controller in the direction you want it to percieve as forwards.
+3. Turn the PCB on (with the switch underneath).
+4. Go to default controller settings and rebind roll left and roll right to LB and RB respectively.
+5. Connect the Bluetooth controller in settings.
