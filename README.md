@@ -56,7 +56,7 @@ Switch Electronics Shipping | - | £2.99
 USB-C Extensions (not necessary but very helpful) | 1 | £2.79 | https://www.aliexpress.com/item/1005005240135902.html
 USB-C Shipping | - | £2.87 | -
   
-Gross total: £67.45 
+Gross total: £67.45  
 Net total: £0.00 (self-funded)  
 
 A lot of these costs can be saved by ordering in bulk or funding the parts more locally.  
