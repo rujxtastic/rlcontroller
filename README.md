@@ -48,8 +48,9 @@ LiPo Battery (~3.7V) |1|£4.30| https://kitronik.co.uk/products/4652-polymer-lit
 "Screws (2mm diameter, 2.4-7.5mm length) "|2|£2.01| https://www.switchelectronics.co.uk/products/m2-x-4mm-nylon-pan-head-screws-pack-of-100
 JCPLB Shipping | - |£13.11|-
 Switch Electronics Shipping | - | £2.99
-
-Gross total: £61.79  
+USB-C Extensions | 1 | £2.79 | https://www.aliexpress.com/item/1005005240135902.html
+USB-C Shipping | - | £2.87 | -
+Gross total: £67.45 
 Net total: £0.00 (self-funded)  
 
 A lot of these costs can be saved by ordering in bulk or funding the parts more locally.  
