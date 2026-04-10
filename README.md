@@ -25,6 +25,8 @@ It also can perform aerial movements:
   
 It does not easily perform menu operations or work well outside of Rocket League, but since the inputs are mapped to mostly default Rocket League controls some inputs are able to be performed: for example, jumping also skips replay as both are bound to the A button (Xbox).   
 
+Painting is an option that works well with this car if you want custom designs. Print in white matte for ease.
+
 # Dimensions
 Bumper to spoiler (length): 18.4cm  
 Base to bumper (height): 6.937cm  
