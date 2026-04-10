@@ -38,7 +38,7 @@ Wemos Shipping | - |£1.90|-
 MPU 6050 Chip |1|£2.53| https://www.ebay.co.uk/itm/257062945708
 MPU Shipping | - |£1.20|-
 4.7k Resistors (very easy to come by) |2|£1.16| https://www.switchelectronics.co.uk/products/4-7k-yageo-1206-smd-chip-resistor-1-0-25w-pack-of-100
-3D print |1|£14.40| https://jlc3dp.com/3d-printing-quote
+3D print (files available above) |1|£14.40| https://jlc3dp.com/3d-printing-quote
 On-On Mini Slide Switch |1|£0.92| https://www.switchelectronics.co.uk/products/on-on-mini-slide-switch-dpdt-5a
 Mini Push Button Switch |5|£1.00| https://www.dfrobot.com/product-612.html
 Button Shipping| -| £3.35| -
