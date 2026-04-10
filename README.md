@@ -32,6 +32,7 @@ Bumper to spoiler (length): 18.4cm
 Base to bumper (height): 6.937cm  
 Wing to wing (width): 9.518cm  
 Clickable hood area: 2.09cm x 2.842cm  
+Travel distance of boost button: 0.018cm
 
 # BOM
 You will need:
@@ -77,10 +78,11 @@ PCB design:
 Underside with the electronic pieces:
 <img width="1031" height="532" alt="image" src="https://github.com/user-attachments/assets/588e8002-a6d5-44c7-9a85-313194bfda41" />
 
-3D render of the car, showing the boost button.
-<img width="734" height="402" alt="Screenshot 2026-04-08 204945" src="https://github.com/user-attachments/assets/fb2a421d-c3be-4528-baeb-b5249997b76b" />
-<img width="448" height="222" alt="Screenshot 2026-04-08 204235" src="https://github.com/user-attachments/assets/9f3b18e3-01ee-4d3a-a24e-6f6b0bd1bf3c" />
-
+3D render of the car.
+<img width="479" height="394" alt="Screenshot 2026-04-10 201116" src="https://github.com/user-attachments/assets/89f09401-f2d2-477e-962a-6cd2f363fc06" />
+<img width="633" height="293" alt="Screenshot 2026-04-10 201123" src="https://github.com/user-attachments/assets/ca4f79bd-5db5-4a34-b432-91361b301e16" />
+<img width="317" height="559" alt="Screenshot 2026-04-10 201142" src="https://github.com/user-attachments/assets/7291e3b5-258f-4571-aad5-aa67d268274a" />
+<img width="852" height="436" alt="Screenshot 2026-04-10 202339" src="https://github.com/user-attachments/assets/82c72397-b52e-4a70-acae-4c950f817a2e" />
 
 # Building
 1. Solder the PCB together, using the outlines as guidance. Reuse the pins meant for the WEMOS in the switch pin nodes and adjust until the pins won't touch the base of the bottom.
