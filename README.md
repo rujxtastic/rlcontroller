@@ -84,7 +84,7 @@ Leave enough wire to solder switches, but don't worry if they are too long as th
 Your build should be assembled. Disassembly requires being very careful due to the glue holding the switches in place, but this is dependent on how much wire extension you gave.
 
 # Post-building setup
-1. Flash the chip with the firmware, the Arduino application works well for this.
+1. Flash the chip with the firmware, I would recommend using the Arduino app. Plug in the PCB into your computer, select the PCB in the dropdown menu and download the .ino files into it.
 2. Make sure you have angled the controller in the direction you want it to percieve as forwards.
 3. Turn the PCB on (with the switch underneath).
 4. Go to default controller settings and rebind roll left and roll right to LB and RB respectively.
