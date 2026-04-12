@@ -62,7 +62,9 @@ Underside with the electronic pieces:
 
 
 # Building
-1. Solder the PCB together, using the outlines as guidance. Reuse the pins meant for the WEMOS in the switch pin nodes and adjust until the pins won't touch the base of the bottom.
+1. Solder the PCB together, using the outlines as guidance. Reuse the pins meant for the WEMOS in the switch pin nodes and adjust until the pins won't touch the base of the bottom. Here is a diagram of the silkscreen that you will see.     
+<img width="284" height="559" alt="image" src="https://github.com/user-attachments/assets/0b0d1635-98e4-4792-aa01-b1e08e1c0697" />
+
 2. Place the on-on slide switch into the hole at the bottom. Use glue to attach it in place. Solder the middle pin to the power supply in SW6 and solder the ground to one of the other pins in the direction you want 'on' to be. For example, if you want to slide up for on, solder the top pin.
 3. Solder wires to the non-ground pins. There should be five not soldered. Wire them like so:   
 - SW1: Back left
