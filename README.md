@@ -59,7 +59,28 @@ Underside with the electronic pieces:
 <img width="852" height="436" alt="Screenshot 2026-04-10 202339" src="https://github.com/user-attachments/assets/82c72397-b52e-4a70-acae-4c950f817a2e" />
 <img width="1920" height="1080" alt="RLCrender" src="https://github.com/user-attachments/assets/dd4bccfb-107c-4f73-9158-a6238dba2014" />
 
+# BOM
 
+Materials | Count | Total cost | Link 
+---|---|---|---
+PCB |1|£1.49|https://cart.jlcpcb.com/quote?quoteTab=standardPcb
+Wemos C3 Mini |1|£8.90|https://kunkune.co.uk/shop/esp32-esp8266/c3-mini-v2-1-0-lolin-wifi-bluetooth-le-ble-iot-board-esp32-c3-4mb-flash/
+Wemos Shipping | - |£1.90|-
+MPU 6050 Chip |1|£2.53|https://www.ebay.co.uk/itm/257062945708
+MPU Shipping | - |£1.20|-
+4.7k Resistors (very easy to come by) |2|£1.16|https://www.switchelectronics.co.uk/products/4-7k-yageo-1206-smd-chip-resistor-1-0-25w-pack-of-100
+3D print |1|£14.40|https://jlc3dp.com/3d-printing-quote
+On-On Mini Slide Switch |1|£0.92|https://www.switchelectronics.co.uk/products/on-on-mini-slide-switch-dpdt-5a
+Mini Push Button Switch |5|£1.00|https://www.dfrobot.com/product-612.html
+Button Shipping| -|£3.35| -
+40mm Wheels |4|£0.76|https://www.aliexpress.us/item/2255801038501851.html
+Copper wire (<=28G)| 30cm |£1.77|https://www.ebay.co.uk/itm/301767024783 (although you can get them anywhere)
+LiPo Battery (~3.7V) |1|£4.30|https://kitronik.co.uk/products/4652-polymer-lithium-ion-battery-1ah
+Screws (2mm diameter, 2.4-7.5mm length)|2|£2.01|https://www.switchelectronics.co.uk/products/m2-x-4mm-nylon-pan-head-screws-pack-of-100
+JCPLB Shipping | - |£13.11|-
+Total:||£58.80|   
+
+A lot of costs can be avoided by purchasing items locally as well as funding from other sources such as friends or your own home!
 
 # Building
 1. Solder the PCB together, using the outlines as guidance. Reuse the pins meant for the WEMOS in the switch pin nodes and adjust until the pins won't touch the base of the bottom. Here is a diagram of the silkscreen that you will see.     
