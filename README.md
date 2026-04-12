@@ -57,7 +57,8 @@ Underside with the electronic pieces:
 <img width="633" height="293" alt="Screenshot 2026-04-10 201123" src="https://github.com/user-attachments/assets/ca4f79bd-5db5-4a34-b432-91361b301e16" />
 <img width="317" height="559" alt="Screenshot 2026-04-10 201142" src="https://github.com/user-attachments/assets/7291e3b5-258f-4571-aad5-aa67d268274a" />
 <img width="852" height="436" alt="Screenshot 2026-04-10 202339" src="https://github.com/user-attachments/assets/82c72397-b52e-4a70-acae-4c950f817a2e" />
-![Uploading RLCrender.png…]()
+<img width="1920" height="1080" alt="RLCrender" src="https://github.com/user-attachments/assets/dd4bccfb-107c-4f73-9158-a6238dba2014" />
+
 
 
 # Building
