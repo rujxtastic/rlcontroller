@@ -1,7 +1,8 @@
 # RLController
 This is RLController, a controller designed for Rocket League using intuitive mechanical real-life gestures using a real model of an Octane car. It is designed for both beginners to easily perform tricks and more advanced players that need a challenge.  
 The Onshape file is available [here](https://cad.onshape.com/documents/7551f43b8e30edc5f5d3d271/w/9f8330f5f6dba310bbc324b3/e/3f2c64dd342ad73578803719?renderMode=0&uiState=69d802e332debe90e1bc55d0).  
-<img width="3983" height="6049" alt="RLControllerZine" src="https://github.com/user-attachments/assets/cf9f7eec-7171-4446-a1f3-49f5ad4fa3c7" />
+<img width="455" height="698" alt="Untitled(4)" src="https://github.com/user-attachments/assets/139f255d-03bd-4162-a769-670988da0e93" />
+
 # Why?
 I have always thought Rocket League seemed pretty intuitive. Looking at gameplay it seemed like you could just go up to the ball and hit it at the right angle every time. But being a beginner, there is a huge mechanical skill ceiling that can only be reached with experience and hundreds of hours of mastery. And controls are not intuitive at all; a 2D controller or keyboard isn't suited for a 3D game. So I decided to make a handheld controller that feels like a mouse but plays like you are the driver.  
 It uses an accelerometer, a gyroscope and buttons near the wheels to detect movement and move the car accordingly.
@@ -44,20 +45,19 @@ PCB design:
 <img width="284" height="562" alt="image" src="https://github.com/user-attachments/assets/7c662381-3314-40a1-9fcc-b6ec5af7834e" />
 
 3D model:  
-<img width="805" height="432" alt="image" src="https://github.com/user-attachments/assets/d7680dfc-7dd1-4c75-bbb4-2daaaa493d50" />
-<img width="775" height="525" alt="image" src="https://github.com/user-attachments/assets/e54f071b-6fd4-4034-89e2-527a189f9790" />
-<img width="1019" height="409" alt="image" src="https://github.com/user-attachments/assets/4ac8d6cf-1fff-47cc-884c-0919a9247e6e" />
+<img width="4196" height="2547" alt="Assembly 1(4)" src="https://github.com/user-attachments/assets/36a54c73-9b73-4671-bac6-8fdf73e5363e" />
+<img width="640" height="391" alt="image" src="https://github.com/user-attachments/assets/41001f6e-1719-4ab4-b875-23b25b027976" />
+<img width="434" height="501" alt="image" src="https://github.com/user-attachments/assets/d50c2895-12a3-402e-a229-99a502aca648" />
+<img width="654" height="515" alt="image" src="https://github.com/user-attachments/assets/3bb4c0dc-7014-4772-b71d-43b9ef19e9ed" />
 
 
-Underside with the electronic pieces:
+Underside without wheels:
 <img width="1031" height="532" alt="image" src="https://github.com/user-attachments/assets/588e8002-a6d5-44c7-9a85-313194bfda41" />
 
 3D render of the car.
-<img width="479" height="394" alt="Screenshot 2026-04-10 201116" src="https://github.com/user-attachments/assets/89f09401-f2d2-477e-962a-6cd2f363fc06" />
-<img width="633" height="293" alt="Screenshot 2026-04-10 201123" src="https://github.com/user-attachments/assets/ca4f79bd-5db5-4a34-b432-91361b301e16" />
-<img width="317" height="559" alt="Screenshot 2026-04-10 201142" src="https://github.com/user-attachments/assets/7291e3b5-258f-4571-aad5-aa67d268274a" />
-<img width="852" height="436" alt="Screenshot 2026-04-10 202339" src="https://github.com/user-attachments/assets/82c72397-b52e-4a70-acae-4c950f817a2e" />
-<img width="1920" height="1080" alt="RLCrender" src="https://github.com/user-attachments/assets/dd4bccfb-107c-4f73-9158-a6238dba2014" />
+<img width="1920" height="1080" alt="car4" src="https://github.com/user-attachments/assets/833c6b48-f90b-4b9f-944f-9e28cd85e7f6" />
+<img width="1920" height="1080" alt="car5" src="https://github.com/user-attachments/assets/e12b9108-cf0d-4433-92fa-309cbf61d1a9" />
+
 
 # BOM
 
@@ -85,30 +85,30 @@ A lot of costs can be avoided by purchasing items locally as well as funding fro
 # Building
 1. Solder the PCB together, using the outlines as guidance. Reuse the pins meant for the WEMOS in the switch pin nodes and adjust until the pins won't touch the base of the bottom. Here is a diagram of the silkscreen that you will see.     
 <img width="284" height="559" alt="image" src="https://github.com/user-attachments/assets/0b0d1635-98e4-4792-aa01-b1e08e1c0697" />
-
-2. Place the on-on slide switch into the hole at the bottom. Use glue to attach it in place. Solder the middle pin to the power supply in SW6 and solder the ground to one of the other pins in the direction you want 'on' to be. For example, if you want to slide up for on, solder the top pin.
-3. Solder wires to the non-ground pins. There should be five not soldered. Wire them like so:   
+2. Flash the chip with the firmware, I would recommend using the Arduino app. Plug in the PCB into your computer, select the PCB in the dropdown menu and download the .ino files into it.
+3. 
+4. Place the on-on slide switch into the hole at the bottom. Use glue to attach it in place. Solder the middle pin to the power supply in SW6 and solder the ground to one of the other pins in the direction you want 'on' to be. For example, if you want to slide up for on, solder the top pin.
+5. Solder wires to the non-ground pins. There should be five not soldered. Wire them like so:   
 - SW1: Back left
 - SW2: Front left
 - SW3: Hood
 - SW4: Back right
 - SW5: Front right
 Leave enough wire to solder switches, but don't worry if they are too long as there is enough space inside to tuck in extra wires. Push the wires of SW1, SW2, SW4, SW5 through the holes on the left and right of the back of the car.
-4. Solder the wires to one of the feet of each switch. We will only use one side.
-5. Solder ground wires to the foot to the right of the previous solder job. It is important to make sure the feet are facing the same way, not opposite ways.
-6. Place the battery inside the square cavity. Connect the pin to the socket on the underside of the PCB.
-7. Connect the USB-C extension to the PCB and push one end into the USB-C hole.
-7. Push the PCB into the carved holes and put the screws inside and tighten them.
-8. Fold up the USB-C cable until the desired length is reached. I would glue the USB-C here but leaving a part slightly trailing is okay. The battery alone should be plenty to make it last a long time.
-9. Glue the hood switch to the hole carved, tucking the metal pins underneath or onto the wall.
-10. Slide the top of the car onto the bottom, making sure that the wires are not getting in the way, going backwards until you feel the click. Confirm it won't slide out easily.
-11. Glue the remaining 4 switches under their respective wheels.
-12. Place the wheels, putting thier axles through the holes.
-Your build should be assembled. Disassembly requires being very careful due to the glue holding the switches in place, but this is dependent on how much wire extension you gave.
+6. Solder the wires to one of the feet of each switch. We will only use one side.
+7. Solder ground wires to the foot to the right of the previous solder job. It is important to make sure the feet are facing the same way, not opposite ways.
+8. Place the battery inside the square cavity. Connect the pin to the socket on the underside of the PCB.
+9. Connect the USB-C extension to the PCB and push one end into the USB-C hole.
+10. Push the PCB into the carved holes and put the screws inside and tighten them.
+11. Fold up the USB-C cable until the desired length is reached. I would glue the USB-C here but leaving a part slightly trailing is okay. The battery alone should be plenty to make it last a long time.
+12. Glue the hood switch to the hole carved, tucking the metal pins underneath or onto the wall.
+13. Slide the top of the car onto the bottom, making sure that the wires are not getting in the way, going backwards until you feel the click. Confirm it won't slide out easily.
+14. Glue the remaining 4 switches under their respective wheels.
+15. Place the wheels, putting thier axles through the holes.
+Your build should be assembled. Disassembly requires being very careful due to the glue holding the switches in place, but this is dependent on how much wire extension you gave. Charging does not require disassembly.
 
 # Post-building setup
-1. Flash the chip with the firmware, I would recommend using the Arduino app. Plug in the PCB into your computer, select the PCB in the dropdown menu and download the .ino files into it.
-2. Make sure you have angled the controller in the direction you want it to percieve as forwards.
-3. Turn the PCB on (with the switch underneath).
-4. Go to default controller settings and rebind roll left and roll right to LB and RB respectively.
-5. Connect the Bluetooth controller in settings.
+1. Make sure you have angled the controller in the direction you want it to percieve as forwards.
+2. Turn the PCB on (with the switch underneath).
+3. Go to default controller settings and rebind roll left and roll right to LB and RB respectively.
+4. Connect the Bluetooth controller in settings.
