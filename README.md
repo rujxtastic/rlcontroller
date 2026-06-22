@@ -84,31 +84,32 @@ A lot of costs can be avoided by purchasing items locally as well as funding fro
 
 # Building
 1. Solder the PCB together, using the outlines as guidance. Reuse the pins meant for the WEMOS in the switch pin nodes and adjust until the pins won't touch the base of the bottom. Here is a diagram of the silkscreen that you will see.     
-<img width="284" height="559" alt="image" src="https://github.com/user-attachments/assets/0b0d1635-98e4-4792-aa01-b1e08e1c0697" />
-2. Flash the chip with the firmware, I would recommend using the Arduino app. Plug in the PCB into your computer, select the PCB in the dropdown menu and download the .ino files into it.
-3. 
-4. Place the on-on slide switch into the hole at the bottom. Use glue to attach it in place. Solder the middle pin to the power supply in SW6 and solder the ground to one of the other pins in the direction you want 'on' to be. For example, if you want to slide up for on, solder the top pin.
-5. Solder wires to the non-ground pins. There should be five not soldered. Wire them like so:   
-- SW1: Back left
-- SW2: Front left
-- SW3: Hood
-- SW4: Back right
-- SW5: Front right
-Leave enough wire to solder switches, but don't worry if they are too long as there is enough space inside to tuck in extra wires. Push the wires of SW1, SW2, SW4, SW5 through the holes on the left and right of the back of the car.
-6. Solder the wires to one of the feet of each switch. We will only use one side.
-7. Solder ground wires to the foot to the right of the previous solder job. It is important to make sure the feet are facing the same way, not opposite ways.
-8. Place the battery inside the square cavity. Connect the pin to the socket on the underside of the PCB.
-9. Connect the USB-C extension to the PCB and push one end into the USB-C hole.
-10. Push the PCB into the carved holes and put the screws inside and tighten them.
-11. Fold up the USB-C cable until the desired length is reached. I would glue the USB-C here but leaving a part slightly trailing is okay. The battery alone should be plenty to make it last a long time.
-12. Glue the hood switch to the hole carved, tucking the metal pins underneath or onto the wall.
-13. Slide the top of the car onto the bottom, making sure that the wires are not getting in the way, going backwards until you feel the click. Confirm it won't slide out easily.
-14. Glue the remaining 4 switches under their respective wheels.
-15. Place the wheels, putting thier axles through the holes.
-Your build should be assembled. Disassembly requires being very careful due to the glue holding the switches in place, but this is dependent on how much wire extension you gave. Charging does not require disassembly.
+<img width="284" height="559" alt="image" src="https://github.com/user-attachments/assets/0b0d1635-98e4-4792-aa01-b1e08e1c0697" />  
 
-# Post-building setup
-1. Make sure you have angled the controller in the direction you want it to percieve as forwards.
-2. Turn the PCB on (with the switch underneath).
-3. Go to default controller settings and rebind roll left and roll right to LB and RB respectively.
+2. Flash the chip with the firmware, I would recommend using the Arduino app. Plug in the PCB into your computer, select the PCB in the dropdown menu and download the .ino files into it.  
+3. Place the on-on slide switch into the hole at the bottom. Use glue to attach it in place. Solder the middle pin to the power supply in SW6 and solder the ground to one of the other pins in   the direction you want 'on' to be. For example, if you want to slide up for on, solder the top pin.  
+4. Solder wires to the non-ground pins. There should be five not soldered. Wire them like so:  
+- SW1: Back left  
+- SW2: Front left  
+- SW3: Hood  
+- SW4: Back right  
+- SW5: Front right  
+Leave enough wire to solder switches, but don't worry if they are too long as there is enough space inside to tuck in extra wires. Push the wires of SW1, SW2, SW4, SW5 through the holes on the left and right of the back of the car.   
+5. Solder the wires to one of the feet of each switch. We will only use one side.   
+6. Solder ground wires to the foot to the right of the previous solder job. It is important to make sure the feet are facing the same way, not opposite ways.   
+7. Place the battery inside the square cavity. Connect the pin to the socket on the underside of the PCB.   
+8. Connect the USB-C extension to the PCB and push one end into the USB-C hole.   
+9. Push the PCB into the carved holes and put the screws inside and tighten them.   
+10. Fold up the USB-C cable until the desired length is reached. I would glue the USB-C here but leaving a part slightly trailing is okay. The battery alone should be plenty to make it last a long time.   
+11. Glue the hood switch to the hole carved, tucking the metal pins underneath or onto the wall.   
+12. Slide the top of the car onto the bottom, making sure that the wires are not getting in the way, going backwards until you feel the click. Confirm it won't slide out easily.   
+13. Glue the remaining 4 switches under their respective wheels.   
+14. Place the wheels, putting thier axles through the holes.  
+
+Your build should be assembled. Disassembly requires being very careful due to the glue holding the switches in place, but this is dependent on how much wire extension you gave. Charging does not require disassembly.   
+
+# Post-building setup   
+1. Make sure you have angled the controller in the direction you want it to percieve as forwards.   
+2. Turn the PCB on (with the switch underneath).   
+3. Go to default controller settings and rebind roll left and roll right to LB and RB respectively.   
 4. Connect the Bluetooth controller in settings.
