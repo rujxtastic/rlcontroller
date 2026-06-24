@@ -42,7 +42,7 @@ Schematic:
 <img width="653" height="388" alt="image" src="https://github.com/user-attachments/assets/ab21c361-6252-4960-b531-49b88630c86d" />
 
 PCB design:  
-<img width="284" height="562" alt="image" src="https://github.com/user-attachments/assets/7c662381-3314-40a1-9fcc-b6ec5af7834e" />
+<img width="259" height="511" alt="image" src="https://github.com/user-attachments/assets/0ac771a5-84ad-4fa2-a0dd-8f64151a8127" />
 
 3D model:  
 <img width="4196" height="2547" alt="Assembly 1(4)" src="https://github.com/user-attachments/assets/36a54c73-9b73-4671-bac6-8fdf73e5363e" />
