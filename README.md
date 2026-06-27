@@ -1,7 +1,7 @@
 # RLController
 
 FOR REVIEWERS: yes my project uses glue, but it is the best option i have, it allows me to put tiny buttons upside down and it will still be a solid product!
-++ i used someone else's model, but the model was ripped from Rocket League files and i cant use any other car because it wont feel the same.
+++ i used someone else's base model, but the model was ripped from Rocket League files and i cant use any other car because it wont feel the same. i have made many tens of hours of edits to the model to make it hold the stuff.
 
 This is RLController, a controller designed for Rocket League using intuitive mechanical real-life gestures using a real model of an Octane car. It is designed for both beginners to easily perform tricks and more advanced players that need a challenge.  
 The Onshape file is available [here](https://cad.onshape.com/documents/7551f43b8e30edc5f5d3d271/w/9f8330f5f6dba310bbc324b3/e/3f2c64dd342ad73578803719?renderMode=0&uiState=69d802e332debe90e1bc55d0).  
